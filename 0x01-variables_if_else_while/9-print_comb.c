@@ -7,9 +7,10 @@ int main(void)
 {
 	int a;
 
-	for (a = 27; n < 37; n++)
+	for (a = 27; a < 37; a++)
 	{
 		putchar(a);
+	}
 		if (a != 36)
 		{
 			putchar(',');
