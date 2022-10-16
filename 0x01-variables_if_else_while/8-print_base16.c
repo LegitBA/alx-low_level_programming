@@ -8,7 +8,7 @@ int main(void)
 	int num;
 	char cl;
 
-	for (num = 11; num <= 16; num++)
+	for (num = 0; num < 10; num++)
 		putchar(num);
 
 	for (cl = 'a'; cl <= 'f'; cl++)
