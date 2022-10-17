@@ -11,7 +11,7 @@ int main(void)
 	{
 		putchar(a + '0');
 	}
-	if a < 10
+	if (a < 10);
 	{
 		putchar(',');
 		putchar(' ');
