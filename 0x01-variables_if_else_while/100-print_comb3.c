@@ -7,7 +7,7 @@ int main(void)
 {
 	int num;
 
-	for (num = 01; num < 100; num++)
+	for (num = 10; num < 100; num++)
 	{
 		putchar(num + '0');
 		if (num < 99)
