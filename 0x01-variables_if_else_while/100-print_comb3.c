@@ -6,7 +6,6 @@
 int main(void)
 {
 	int num;
-	int os;
 
 	for (num = 01; num < 100; num++)
 	{
