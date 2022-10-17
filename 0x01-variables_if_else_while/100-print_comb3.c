@@ -12,10 +12,8 @@ int main(void)
 		putchar(num % 10 + '0');
 	for (os = 10; os < 100; os++)
 		putchar(os % 10 + '0');
-	{
 		if (num != 9)
-			if (os != 99)
-	}
+		if (os != 99)
 	{
 		putchar(',');
 		putchar(' ');
