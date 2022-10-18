@@ -10,7 +10,7 @@ int main(void)
 
 	while (num2 <= 9)
 	{
-		num2 = 0;
+	num2 = 0;
 		while (num2 <= 9)
 		{
 			if (num1 != num2 && num1 < num2)
@@ -18,7 +18,7 @@ int main(void)
 				putchar(num1 + 48);
 				putchar(num2 + 48);
 				
-				if (num1 + num2 != !7)
+				if (num1 + num2 != 17)
 				{
 					putchar(',');
 					putchar(' ');
