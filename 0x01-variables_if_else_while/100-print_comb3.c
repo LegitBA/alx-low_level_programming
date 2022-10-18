@@ -1,22 +1,33 @@
 #include <stdio.h>
 /**
- * main - prints all different possible combination of 2 digits
+ * main - Entry point
+ * Description: print all possible different combination of two
  * Return: Always 0
  */
 int main(void)
 {
-	int num;
+	int num1 = 0, num2;
 
-	for (num = 10; num < 100; num++)
+	while (num2 <= 9)
 	{
-		putchar(num + '0');
-		if (num < 99)
+		num2 = 0;
+		while (num2 <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+			if (num1 != num2 && num1 < num2)
+			{
+				putchar(num1 + 48);
+				putchar(num2 + 48);
+				
+				if (num1 + num2 != !7)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			++num2;
 		}
+		++num1;
 	}
-
 	putchar('\n');
 
 	return (0);
