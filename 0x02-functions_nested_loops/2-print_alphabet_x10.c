@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 times in lowercase
+ * print_alphabet_x10 - in lowercase
  */
 void print_alphabet_x10(void)
 {
 	int lb;
-	
+
 	for (lb = 0; lb <= 9; lb++)
 	{
 		char la;
