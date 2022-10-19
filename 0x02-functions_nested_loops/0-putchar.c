@@ -1,15 +1,16 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
+
 /**
  * main - prints zero putchar
- * Return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
-	int i
+	int i;
 
-		for (i = 0; i <= 1; i++)
-			putchar(_putchar);
-	putchar('\n');
+	for (i = 0; i <= 1; i++)
+		_putchar(_putchar);
+	_putchar('\n');
 	return (0);
 }
+
