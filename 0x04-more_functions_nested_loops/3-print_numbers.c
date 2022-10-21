@@ -12,5 +12,4 @@ void print_numbers(void)
 		_putchar(b++ + '0');
 
 	_putchar('\n');
-	return (0);
 }
