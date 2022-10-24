@@ -11,6 +11,6 @@ void rev_string(char *s)
 
 	while (s[t] != '\0')
 		t++;
-	for (t = t - 1; t >= 0; t--)
+	for (t = t - 1; t < 0; t--)
 		_putchar(s[t]);
 }
