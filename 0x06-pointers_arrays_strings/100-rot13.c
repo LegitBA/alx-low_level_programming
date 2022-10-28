@@ -7,9 +7,9 @@
  */
 char *rot13(char *n)
 {
-	int i = 0, int j = 0;
+	int i = 0, j;
 
-	char alphabets[52] = {'A', 'B', 'C', 'D', 'E', 'F',
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
 		'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 		'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
 		'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd',
@@ -27,7 +27,7 @@ char *rot13(char *n)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			if (n[i] == alphabets[j])
+			if (n[i] == alphabet[j])
 			{
 				n[i] = rot13key[j];
 				break;
