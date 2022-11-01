@@ -2,11 +2,12 @@
 
 /**
  * _memset - fills the first n bytes of the memory area
+ * pointed to by @s withe constant byte @b
  * @s: A pointer to the memory area to be filled
- * @c: the character to fill the memory area
+ * @b: the character to fill the memory area
  * @n: the number of byte to filled.
  * description _memset: over there
- * Return: A pointer to the filled memory area @s
+ * Return: A pointer to the memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
