@@ -2,11 +2,13 @@
 
 /**
  * _print_rev_recursion - prints a string in reverse
- * @s: the srtring
- * Return: always 0
+ * @s: the string
+ * Return: Always 0
  */
-voi _print_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
+	if (!*s)
+		return;
 	if (*s)
 	{
 		_print_rev_recursion(s + 1);
