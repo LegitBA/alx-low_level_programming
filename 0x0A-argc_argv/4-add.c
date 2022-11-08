@@ -52,5 +52,5 @@ int main(int argc, char *argv[])
 		count++;
 	}
 	printf("%d\n", sum);
-	return (0);
+	return (1);
 }
