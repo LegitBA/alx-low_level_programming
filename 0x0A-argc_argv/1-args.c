@@ -3,7 +3,7 @@
 
 /**
  * main - print the name of the prog
- * @qrgc: count arguement
+ * @argc: count arguement
  * @argv: argument
  * Return:Always 0
  */
