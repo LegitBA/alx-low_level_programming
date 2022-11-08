@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - arrays to print a string
@@ -8,26 +10,19 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *buffer;
-	unsigned int position;
+	unsigned int i;
+	char *array;
 
 	if (size == 0)
+		return (NULL);
+	array = malloc(size * sizeof(char));
+	if (array == NULL)
 	{
 		return (NULL);
 	}
-	buffer = (char *) malloc(size * sizeof(c));
-	if (buffer == 0)
+	for (i = 0; i < size; i++)
 	{
-		return (NULL);
+		array[i] = c;
 	}
-	else
-	{
-		position = 0;
-		while (position < size)
-		{
-			*(buffer + position) = c;
-			position++;
-		}
-		return (buffer);
-	}
+	return (array);
 }
