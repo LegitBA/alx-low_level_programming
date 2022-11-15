@@ -7,6 +7,7 @@
  * @age: age
  * @owner: owner
  * Description: This struct is for dog
+ * Return: success 1
  */
 struct dog
 {
