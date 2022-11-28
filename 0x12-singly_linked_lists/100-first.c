@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-void _attribute_((constructor)) hare(void);
-
 /**
  * hare - prints a string
  */
